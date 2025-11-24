@@ -1,4 +1,79 @@
+/* app/globals.css */
+
+/* 1. Basic Reset & Typography */
 body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: #f0f4f8; /* Light grey-blue background */
+  color: #1a202c; /* Dark charcoal text for readability */
   margin: 0;
-  font-family: Arial, sans-serif;
+  padding: 20px;
+  line-height: 1.6;
 }
+
+/* 2. Main Container (The White Card effect) */
+main {
+  max-width: 800px; /* Keeps text from getting too wide */
+  margin: 40px auto; /* Centers the box */
+  background: white;
+  padding: 40px;
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1); /* Subtle drop shadow */
+}
+
+/* 3. Navigation Bar Styling */
+nav {
+  display: flex;
+  gap: 20px; /* Spaces out your links! */
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #3182ce; /* Professional Tech Blue */
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #2c5282; /* Darker blue when tapped/hovered */
+}
+
+/* 4. Headings */
+h1 {
+  color: #2a4365; /* Deep Navy Blue */
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #2d3748;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border-left: 5px solid #3182ce; /* Blue accent bar on left */
+  padding-left: 15px;
+}
+
+/* 5. The Services List (Turn bullets into cards) */
+ul {
+  list-style: none; /* Remove default dots */
+  padding: 0;
+  display: grid;
+  gap: 15px;
+}
+
+li {
+  background: #ebf8ff; /* Very pale blue background */
+  padding: 15px 20px;
+  border-radius: 8px;
+  font-weight: 500;
+  border: 1px solid #bee3f8;
+}
+
+/* 6. Owner Name Highlight */
+strong {
+  color: #2b6cb0;
+}
+
