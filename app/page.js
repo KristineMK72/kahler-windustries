@@ -3,7 +3,7 @@ export default function Home() {
     <main style={{ padding: "2rem", fontFamily: "Arial" }}>
       <h1>Kahler Windustries</h1>
       <p>
-        <strong>Owner:</strong> Tim Kahler
+        <strong>Owner:</strong> Tom Kahler
       </p>
       <p>
         With 15 years of hands-on experience working on Dakota Wind turbines and
