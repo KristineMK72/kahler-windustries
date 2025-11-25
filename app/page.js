@@ -15,7 +15,7 @@ export default function Home() {
         <h2>Owner: Tom Kahler</h2>
         <p>
           With 15 years of hands-on experience working on Dakota Wind turbines and large-scale 
-          commercial wind systems across the Upper Midwest, Tim brings unmatched knowledge, 
+          commercial wind systems across the Upper Midwest, Tom brings unmatched knowledge, 
           safety excellence, and reliability to every job.
         </p>
 
