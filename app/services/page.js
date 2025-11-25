@@ -74,7 +74,7 @@ export default function Services() {
         <div style={{marginTop: '50px', textAlign: 'center', borderTop: '1px solid #eee', paddingTop: '30px'}}>
           <h2>Need a custom quote?</h2>
           <p style={{marginBottom: '30px'}}>Contact us to discuss your specific site needs.</p>
-          <Link href="/contact" className="btn">Contact Tim</Link>
+          <Link href="/contact" className="btn">Contact Tom</Link>
         </div>
 
       </div>
