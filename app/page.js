@@ -1,37 +1,61 @@
+import Link from 'next/link';
+
 export default function Home() {
   return (
-    <main style={{ padding: "2rem", fontFamily: "Arial" }}>
-      <h1>Kahler Windustries</h1>
-      <p>
-        <strong>Owner:</strong> Tom Kahler
-      </p>
-      <p>
-        With 15 years of hands-on experience working on Dakota Wind turbines and
-        large-scale commercial wind systems across the Upper Midwest, Tim brings
-        unmatched knowledge, safety excellence, and reliability to every job.
-      </p>
+    <main>
+      {/* 1. The Hero Section */}
+      <div className="hero">
+        <h1>Kahler Windustries</h1>
+        <p>Reliable. Professional. Unmatched Wind Turbine Expertise.</p>
+        <Link href="/contact" className="btn">Get a Quote</Link>
+      </div>
 
-      <h2>Our Services</h2>
-      <ul>
-        <li>Wind turbine installation</li>
-        <li>Turbine inspections & structural assessments</li>
-        <li>Gearbox & mechanical repairs</li>
-        <li>Electrical diagnostics & component replacement</li>
-        <li>Preventive maintenance programs</li>
-      </ul>
+      <div className="content">
+        {/* 2. The Intro */}
+        <h2>Owner: Tom Kahler</h2>
+        <p>
+          With 15 years of hands-on experience working on Dakota Wind turbines and large-scale 
+          commercial wind systems across the Upper Midwest, Tim brings unmatched knowledge, 
+          safety excellence, and reliability to every job.
+        </p>
 
-      <h2>Company History</h2>
-      <p>
-        Kahler Windustries was founded to provide dependable, professional, and
-        honest wind turbine maintenance services to rural Minnesota and the
-        surrounding region. Built on a foundation of technical expertise and
-        farm-raised work ethic, the company has supported dozens of wind
-        projects from construction through long-term operations.
-      </p>
+        {/* 3. The Services Grid */}
+        <h2>Our Services</h2>
+        <div className="grid">
+          
+          <div className="card">
+            <span className="card-icon">🏗️</span>
+            <h3>Installation</h3>
+            <p>Expert wind turbine installation and structural setup.</p>
+          </div>
 
-      <h2>Contact</h2>
-      <p>Phone: (555) 123-4567</p>
-      <p>Email: info@kahlerwindustries.com</p>
+          <div className="card">
+            <span className="card-icon">🔍</span>
+            <h3>Inspections</h3>
+            <p>Structural assessments and safety diagnostics.</p>
+          </div>
+
+          <div className="card">
+            <span className="card-icon">⚙️</span>
+            <h3>Mechanical</h3>
+            <p>Gearbox repairs, fluid changes, and mechanical fixes.</p>
+          </div>
+
+          <div className="card">
+            <span className="card-icon">⚡</span>
+            <h3>Electrical</h3>
+            <p>Component replacement and electrical troubleshooting.</p>
+          </div>
+
+        </div>
+
+        {/* 4. Company History */}
+        <h2>Company History</h2>
+        <p>
+          Kahler Windustries was founded to provide dependable, professional, and honest 
+          wind turbine maintenance services to rural Minnesota and the surrounding regions.
+        </p>
+      </div>
     </main>
   );
 }
