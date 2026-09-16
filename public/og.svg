@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070b12"/>
+      <stop offset="0.5" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="blade" x1="700" y1="80" x2="980" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7dd3fc"/>
+      <stop offset="0.5" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#fbbf24"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(900 280) rotate(90) scale(280 320)">
+      <stop stop-color="#38bdf8" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="900" cy="280" r="320" fill="url(#glow)"/>
+
+  <!-- subtle grid -->
+  <g stroke="#1e293b" stroke-width="1" opacity="0.5">
+    <path d="M0 126h1200M0 252h1200M0 378h1200M0 504h1200"/>
+    <path d="M240 0v630M480 0v630M720 0v630M960 0v630"/>
+  </g>
+
+  <!-- turbine silhouette -->
+  <g transform="translate(780 40)">
+    <path d="M110 520V220" stroke="#475569" stroke-width="8" stroke-linecap="round"/>
+    <path d="M70 530h80" stroke="#334155" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="110" cy="200" r="18" fill="url(#blade)"/>
+    <path d="M110 182C125 90 175 55 230 70c-20 70-75 110-120 112z" fill="url(#blade)"/>
+    <path d="M125 210C220 230 255 300 240 370c-70-15-120-70-115-160z" fill="url(#blade)" opacity="0.9"/>
+    <path d="M95 212C30 250 -10 235 -20 165c55-25 115-10 115 47z" fill="url(#blade)" opacity="0.85"/>
+  </g>
+
+  <!-- text -->
+  <text x="72" y="220" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="700" letter-spacing="4">WIND TURBINE FIELD SERVICES</text>
+  <text x="72" y="310" fill="#e8eef7" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="700">Kahler Windustries</text>
+  <text x="72" y="380" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="32">Reliable work at height · Upper Midwest</text>
+  <rect x="72" y="430" width="180" height="6" rx="3" fill="#fbbf24"/>
+</svg>
