@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="14" fill="#0b1220"/>
+  <defs>
+    <linearGradient id="g" x1="12" y1="8" x2="52" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7dd3fc"/>
+      <stop offset="0.55" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#fbbf24"/>
+    </linearGradient>
+  </defs>
+  <!-- tower -->
+  <path d="M31 58V28M33 58V28" stroke="#64748b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M26 58h12" stroke="#475569" stroke-width="2" stroke-linecap="round"/>
+  <!-- hub -->
+  <circle cx="32" cy="26" r="4" fill="url(#g)"/>
+  <!-- blades -->
+  <path d="M32 22C34 10 40 6 46 8c-2 8-8 14-14 14z" fill="url(#g)" opacity="0.95"/>
+  <path d="M35 28C47 30 52 38 50 46c-8-1-15-8-15-18z" fill="url(#g)" opacity="0.85"/>
+  <path d="M29 28C19 34 12 32 10 24c7-4 15-2 19 4z" fill="url(#g)" opacity="0.9"/>
+</svg>
