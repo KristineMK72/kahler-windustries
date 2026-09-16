@@ -9,6 +9,30 @@ export const metadata = {
   },
   description:
     "Professional wind turbine installation, inspection, mechanical and electrical service across rural Minnesota and the Upper Midwest. Owner-operated by Tom Kahler.",
+  icons: {
+    icon: [{ url: "/favicon.svg", type: "image/svg+xml" }],
+    apple: [{ url: "/favicon.svg" }],
+  },
+  openGraph: {
+    title: "Kahler Windustries — Wind Turbine Field Services",
+    description:
+      "Installation, inspection, mechanical & electrical service for commercial wind systems. Owner-operated across rural Minnesota and the Upper Midwest.",
+    type: "website",
+    images: [
+      {
+        url: "/og.svg",
+        width: 1200,
+        height: 630,
+        alt: "Kahler Windustries — wind turbine field services",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Kahler Windustries",
+    description: "Wind turbine field services · Upper Midwest",
+    images: ["/og.svg"],
+  },
 };
 
 export default function RootLayout({ children }) {
